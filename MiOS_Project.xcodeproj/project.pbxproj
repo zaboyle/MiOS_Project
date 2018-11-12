@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50C92FF2199559E008DA461 /* EvenNumbersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C92FE2199559E008DA461 /* EvenNumbersController.swift */; };
+		B50C9301219959EE008DA461 /* OddNumbersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C9300219959EE008DA461 /* OddNumbersController.swift */; };
+		B50C930321995D7F008DA461 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50C930221995D7F008DA461 /* DetailViewController.swift */; };
 		B5C87530218793B7003B8515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8752F218793B7003B8515 /* AppDelegate.swift */; };
 		B5C87532218793B7003B8515 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C87531218793B7003B8515 /* ViewController.swift */; };
 		B5C87535218793B7003B8515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C87533218793B7003B8515 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50C92FE2199559E008DA461 /* EvenNumbersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenNumbersController.swift; sourceTree = "<group>"; };
+		B50C9300219959EE008DA461 /* OddNumbersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddNumbersController.swift; sourceTree = "<group>"; };
+		B50C930221995D7F008DA461 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B5BD4A21218A6A930015B4D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5C8752C218793B7003B8515 /* MiOS_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiOS_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C8752F218793B7003B8515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				B5C8752F218793B7003B8515 /* AppDelegate.swift */,
 				B5C87531218793B7003B8515 /* ViewController.swift */,
 				B5C87533218793B7003B8515 /* Main.storyboard */,
+				B50C930221995D7F008DA461 /* DetailViewController.swift */,
+				B50C9300219959EE008DA461 /* OddNumbersController.swift */,
+				B50C92FE2199559E008DA461 /* EvenNumbersController.swift */,
 				B5C8754121879785003B8515 /* LabelColor.swift */,
 				B5C87536218793C0003B8515 /* Assets.xcassets */,
 				B5C87538218793C0003B8515 /* LaunchScreen.storyboard */,
@@ -148,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50C9301219959EE008DA461 /* OddNumbersController.swift in Sources */,
+				B50C92FF2199559E008DA461 /* EvenNumbersController.swift in Sources */,
 				B5C87532218793B7003B8515 /* ViewController.swift in Sources */,
+				B50C930321995D7F008DA461 /* DetailViewController.swift in Sources */,
 				B5C87530218793B7003B8515 /* AppDelegate.swift in Sources */,
 				B5C8754221879785003B8515 /* LabelColor.swift in Sources */,
 			);

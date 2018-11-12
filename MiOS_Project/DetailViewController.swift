@@ -1,31 +1,28 @@
 //
-//  LabelColor.swift
+//  DetailViewController.swift
 //  MiOS_Project
 //
-//  Created by Zach Boyle on 10/29/18.
+//  Created by Zach Boyle on 11/12/18.
 //  Copyright © 2018 Zach Boyle. All rights reserved.
 //
 
 import UIKit
 
-class LabelColor: UIViewController {
-
-    @IBOutlet weak var label: UILabel!
+class DetailViewController: UIViewController {
+    
+    @IBOutlet weak var numLabel: UILabel!
+    
+    var num : Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        numLabel.text = "Number: \(num!)"
+        
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func yellowPressed(_ sender: Any) {
-        //for a nicer/ easier to read shade of yellow
-        self.label.textColor = UIColor.init(displayP3Red: 0.957, green: 0.851, blue: 0.2588, alpha: 1.0)
-    }
-    
-    @IBAction func bluePressed(_ sender: Any) {
-        self.label.textColor = UIColor.blue
-    }
+
     /*
     // MARK: - Navigation
 
